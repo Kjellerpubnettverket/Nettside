@@ -1,6 +1,6 @@
 # Kjellerpubnettverket - Nettside
 
-Offisiell nettside for Kjellerpubnettverket ved Universitetet i Oslo.
+Offisiell nettside for Kjellerpubnettverket ved Universitetet i Oslo. (JA jeg lagde alt med claude for å starte med jeg vil bare ha google workspace se første README.md)
 
 ## Om prosjektet
 
