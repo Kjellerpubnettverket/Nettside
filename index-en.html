@@ -10,14 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="grain-overlay"></div>
-    
     <header class="hero">
         <div class="hero-content">
             <div class="logo-area">
                 <h1 class="main-title">
-                    <span class="title-line">Kjellerpub</span>
-                    <span class="title-line highlight">Nettverjet</span>
+                    <span class="title-line">Basement Pub</span>
+                    <span class="title-line highlight">Network</span>
                 </h1>
                 <p class="subtitle">The Heart of Student Life at UiO</p>
             </div>
@@ -28,14 +26,9 @@
     <nav class="main-nav">
         <ul>
             <li><a href="index-en.html" class="nav-link">Home</a></li>
-            <li><a href="#about" class="nav-link">About Us</a></li>
-            <li><a href="#members" class="nav-link">Our Members</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#members" class="nav-link">Members</a></li>
             <li><a href="#contact" class="nav-link">Contact</a></li>
-            <!-- Multi-page navigation (uncomment to enable separate pages)
-            <li><a href="about-en.html" class="nav-link">About Us</a></li>
-            <li><a href="members-en.html" class="nav-link">Our Members</a></li>
-            <li><a href="contact-en.html" class="nav-link">Contact</a></li>
-            -->
             <li><a href="index.html" class="nav-link lang-switch">Norsk</a></li>
         </ul>
     </nav>
@@ -57,106 +50,129 @@
                             <p><strong>Our Vision:</strong> A vibrant campus where all students find their place through low-threshold offerings, community, and volunteerism.</p>
                         </div>
                     </div>
-                    <div class="stats-grid">
-                        <div class="stat-card">
-                            <div class="stat-number">8</div>
-                            <div class="stat-label">Member Organizations</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">300+</div>
-                            <div class="stat-label">Volunteers</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">1000+</div>
-                            <div class="stat-label">Daily Visitors</div>
-                        </div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Member Organizations</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">300+</div>
+                        <div class="stat-label">Volunteers</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="members" class="section pubs-section">
+        <section id="members" class="section">
             <div class="container">
                 <div class="section-header">
                     <span class="section-number">02</span>
                     <h2>Our Members</h2>
                 </div>
-                <div class="pubs-grid">
-                    <div class="pub-card">
-                        <div class="pub-icon">⚗️</div>
+                <div class="members-grid">
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/realistforeningen.png" alt="Realistforeningen logo"> -->
+                            <span class="member-icon">⚗️</span>
+                        </div>
                         <h3>Realistforeningen</h3>
-                        <p class="pub-faculty">Faculty of Mathematics and Natural Sciences</p>
-                        <p>Meeting place for natural science students with a long tradition and unique atmosphere.</p>
+                        <p class="member-faculty">Faculty of Mathematics and Natural Sciences</p>
+                        <p>Meeting place for natural science students with a long tradition.</p>
+                        <a href="https://foreninger.uio.no/rf/" target="_blank" class="member-link">Visit website →</a>
                     </div>
-                    <div class="pub-card">
-                        <div class="pub-icon">🤖</div>
+
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/cyb.png" alt="Cybernetisk Selskab logo"> -->
+                            <span class="member-icon">🤖</span>
+                        </div>
                         <h3>Cybernetisk Selskab</h3>
-                        <p class="pub-faculty">Faculty of Mathematics and Natural Sciences</p>
-                        <p>Home for cybernetics and robotics students.</p>
+                        <p class="member-faculty">Department of Informatics</p>
+                        <p>Operating Escape - Oslo's best student pub in Ole-Johan Dahls Hus.</p>
+                        <a href="https://cyb.no/" target="_blank" class="member-link">Visit website →</a>
                     </div>
-                    <div class="pub-card">
-                        <div class="pub-icon">☕</div>
+
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/svff.png" alt="SVFF logo"> -->
+                            <span class="member-icon">☕</span>
+                        </div>
                         <h3>SVFF</h3>
-                        <p class="pub-faculty">Faculty of Social Sciences</p>
-                        <p>Social Science Student Association – social hub for SV students.</p>
+                        <p class="member-faculty">Faculty of Social Sciences</p>
+                        <p>Running U1 - café, pub and stage in Eilert Sundts hus.</p>
+                        <a href="https://svff.no/" target="_blank" class="member-link">Visit website →</a>
                     </div>
-                    <div class="pub-card">
-                        <div class="pub-icon">🎓</div>
+
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/traugot.png" alt="Traugot's kjeller logo"> -->
+                            <span class="member-icon">🎓</span>
+                        </div>
                         <h3>Traugot's Kjeller</h3>
-                        <p class="pub-faculty">Faculty of Educational Sciences</p>
-                        <p>Also known as Kjellern – run by students for students at Helga Engs hus.</p>
+                        <p class="member-faculty">Faculty of Educational Sciences</p>
+                        <p>Also known as Kjellern - run by students for students.</p>
+                        <a href="#" class="member-link">Contact the association</a>
                     </div>
-                    <div class="pub-card">
-                        <div class="pub-icon">🦉</div>
+
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/uglebo.png" alt="Uglebo logo"> -->
+                            <span class="member-icon">🦉</span>
+                        </div>
                         <h3>Uglebo</h3>
-                        <p class="pub-faculty">Faculty of Law</p>
+                        <p class="member-faculty">Faculty of Law</p>
                         <p>Tradition and comfort for law students at UiO.</p>
+                        <a href="#" class="member-link">Contact the association</a>
                     </div>
-                    <div class="pub-card">
-                        <div class="pub-icon">⚕️</div>
+
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/anestesien.png" alt="Anestesien logo"> -->
+                            <span class="member-icon">⚕️</span>
+                        </div>
                         <h3>Anestesien</h3>
-                        <p class="pub-faculty">Medicine and Health Sciences</p>
+                        <p class="member-faculty">Medicine and Health Sciences</p>
                         <p>Social meeting place for medical students.</p>
+                        <a href="#" class="member-link">Contact the association</a>
                     </div>
-                    <div class="pub-card">
-                        <div class="pub-icon">🎭</div>
+
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/amatoren.png" alt="Amatøren logo"> -->
+                            <span class="member-icon">🎭</span>
+                        </div>
                         <h3>Amatøren</h3>
-                        <p class="pub-faculty">Faculty of Humanities</p>
-                        <p>The heart of humanities – café and cultural scene for humanities students.</p>
+                        <p class="member-faculty">Faculty of Humanities</p>
+                        <p>The heart of humanities - café and cultural scene.</p>
+                        <a href="#" class="member-link">Contact the association</a>
                     </div>
-                    <div class="pub-card">
-                        <div class="pub-icon">🏛️</div>
+
+                    <div class="member-card">
+                        <div class="member-logo">
+                            <!-- Placeholder for logo - replace with: <img src="logos/dns.png" alt="DNS logo"> -->
+                            <span class="member-icon">🏛️</span>
+                        </div>
                         <h3>Tappetårnet + Det Norske Studentersamfund</h3>
-                        <p class="pub-faculty">Student Society</p>
-                        <p>Oslo's oldest student house with concerts, debates, and cultural events.</p>
+                        <p class="member-faculty">Student Society</p>
+                        <p>Oslo's oldest student house with concerts and debates.</p>
+                        <a href="#" class="member-link">Contact the association</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section contact-section">
+        <section id="contact" class="section">
             <div class="container">
                 <div class="section-header">
                     <span class="section-number">03</span>
                     <h2>Contact Us</h2>
                 </div>
-                <div class="contact-grid">
-                    <div class="contact-card">
-                        <h3>Contact the Network</h3>
-                        <p>For questions about the Basement Pub Network, or to get in touch with us.</p>
-                        <p class="contact-info">📧 Email: <a href="mailto:hannehugem@gmail.com">kordinator@kjellerpubnettverket.no</a></p>
-                        <p class="contact-info">🏢 Org. No.: 936 799 124</p>
-                    </div>
-                    <div class="contact-card full-width">
-                        <h3>Our Values</h3>
-                        <ul class="values-list">
-                            <li><strong>Inclusion:</strong> Everyone is welcome in our member organizations' premises</li>
-                            <li><strong>Volunteerism:</strong> Run by students, for students</li>
-                            <li><strong>Community:</strong> Building bridges between faculties and students</li>
-                            <li><strong>Low Threshold:</strong> Affordable prices and informal atmosphere</li>
-                            <li><strong>Sustainability:</strong> Responsible operation and environmentally conscious choices</li>
-                        </ul>
-                    </div>
+                <div class="contact-card">
+                    <h3>Contact the Network</h3>
+                    <p>For questions about the Basement Pub Network, or to get in touch with us.</p>
+                    <p class="contact-info">📧 Email: <a href="mailto:hannehugem@gmail.com">kordinator@kjellerpubnettverket.no</a></p>
+                    <p class="contact-info">🏢 Org. No.: 936 799 124</p>
                 </div>
             </div>
         </section>
@@ -178,8 +194,8 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <p>Follow the individual pubs on social media for event updates!</p>
+                    <h4>Follow our Members</h4>
+                    <p>Follow the individual pubs on social media for updates!</p>
                 </div>
             </div>
             <div class="footer-bottom">
